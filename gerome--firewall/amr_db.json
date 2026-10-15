@@ -1,0 +1,65 @@
+{
+  "blaKPC-2": {
+    "name": "blaKPC-2 (Serine Carbapenemase)",
+    "drug_class": "Carbapenems & Beta-lactams",
+    "drugs": ["Imipenem", "Amoxicillin", "Ceftriaxone"],
+    "mechanism": "Class A serine carbapenemase hydrolyzes carbapenems, cephalosporins, and penicillins.",
+    "signature_dna": "ATGTCACTCAGCAATTTTCAACAAGAAGGAAAGCTATATATCAACCAAAACCAATCGCAAGGCA"
+  },
+  "blaCTX-M-15": {
+    "name": "blaCTX-M-15 (Extended-Spectrum Beta-Lactamase)",
+    "drug_class": "Cephalosporins & Penicillins",
+    "drugs": ["Ceftriaxone", "Amoxicillin"],
+    "mechanism": "Class A ESBL hydrolyzes 3rd/4th generation oxyimino-cephalosporins and penicillins.",
+    "signature_dna": "ATGAATAAAGTAAAGTGATGCGCCACGCTCAGTTAACAGCTAACAGCGCCTATACCGTGGCCACCGCGCAGAACGG"
+  },
+  "aac(6')-Ib": {
+    "name": "aac(6')-Ib (Aminoglycoside Acetyltransferase)",
+    "drug_class": "Aminoglycosides",
+    "drugs": ["Gentamicin"],
+    "mechanism": "Covalently acetylates the 6' position of aminoglycosides, disrupting ribosomal A-site binding.",
+    "signature_dna": "ATGAGCAACGCAAAAACAAACTCAACCGCAACCAACCCACCAACAAACAAACCAACACCAACAA"
+  },
+  "gyrA_S83L": {
+    "name": "gyrA (S83L QRDR Mutation)",
+    "drug_class": "Fluoroquinolones",
+    "drugs": ["Ciprofloxacin"],
+    "mechanism": "Point mutation in DNA Gyrase subunit A (Ser83Leu) disrupting fluoroquinolone binding.",
+    "signature_dna": "ATGAACAAACCAAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCAgyrA_S83L"
+  },
+  "dfrA14": {
+    "name": "dfrA14 (Dihydrofolate Reductase)",
+    "drug_class": "Folate Pathway Inhibitors",
+    "drugs": ["Trimethoprim-Sulfamethoxazole"],
+    "mechanism": "Expresses drug-resistant dihydrofolate reductase, conferring high-level trimethoprim resistance.",
+    "signature_dna": "ATGGAGTCCAAAAACCAATCAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCdfrA14"
+  },
+  "fosA": {
+    "name": "fosA (Glutathione S-Transferase)",
+    "drug_class": "Epoxide Antibiotics",
+    "drugs": ["Fosfomycin"],
+    "mechanism": "Glutathione S-transferase catalyzes addition of glutathione to fosfomycin, inactivating it.",
+    "signature_dna": "ATGAAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCAACCfosA"
+  },
+  "blaNDM-1": {
+    "name": "blaNDM-1 (Metallo-beta-lactamase 1)",
+    "drug_class": "Carbapenems & Beta-lactams",
+    "drugs": ["Imipenem", "Amoxicillin", "Ceftriaxone"],
+    "mechanism": "Zinc-dependent Class B MBL hydrolyzes carbapenems, cephalosporins, and penicillins.",
+    "signature_dna": "ATGGAATTGCCCAATATTATGCACCCGGTCGCGAAGCTAGCGCAGCAAATGGAAACTGCGCAACCACCAATGCGTT"
+  },
+  "armA": {
+    "name": "armA (16S rRNA Methyltransferase)",
+    "drug_class": "Aminoglycosides",
+    "drugs": ["Gentamicin"],
+    "mechanism": "m7G1405 methylation of 16S rRNA in 30S ribosome, conferring pan-aminoglycoside resistance.",
+    "signature_dna": "ATGAAAAAAACAAAAAATATCCTGATCACCACCCTGCCGACCGAAGAACAGGAAGAAATCCGCGAAGTGTTCAAAA"
+  },
+  "mcr-1": {
+    "name": "mcr-1 (Phosphoethanolamine Transferase)",
+    "drug_class": "Polymyxins",
+    "drugs": ["Colistin"],
+    "mechanism": "Adds phosphoethanolamine to Lipid A, neutralizing LPS negative charge to block polymyxins.",
+    "signature_dna": "ATGAGCGATACCAGCCAGCAAACCCTGACCCGTCGCACCGTGGAACGCGCCCGTCGTCAAGGCATTACCCTGATGG"
+  }
+}
